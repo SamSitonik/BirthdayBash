@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- /*Login page*/ -->
     <title>Bithday &hearts; Bash</title>
     <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="mystyle.css" />
+
 </head>
 
 <body>
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h3><em>Libra Nation</em></h3> &nbsp; &nbsp; &nbsp; &nbsp;
+            <h5><em>September 23-October 22</em></h5>
+        </a>
+    </nav>
+
+
     <div class="container-fluid">
         <h1><strong>Birthday Bash!</strong></h1>
-        <p>
-            <div>
-                <h2>WELCOME</h2>
-            </div>
-            <div><em>September 23rd</em></div>
-            <div><em>Libra Nation</em></div>
-        </p>
+        <h2>WELCOME</h2>
+        <div><em>September 23rd</em></div>
+        <div><em>Libra Nation</em></div>
+        <h2>Login</h2>
         <form>
             <div class="form-group">
                 <label>First name</label>
@@ -26,22 +34,23 @@
             </div>
             <div class="form-group">
                 <label>Last name</label>
-                <input type="text">
+                <input type="text" class="form-control">
             </div>
             <div class="form-group">
                 <label>Email</label>
-                <input type="text">
+                <input type="text" class="form-control">
             </div>
             <div class="form-group">
                 <label>Password</label>
-                <input type="Password"></div>
-    </div>
-    <div class="form-group">
-        <label>Confirm Password</label>
-        <input type="Password"></div>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="text" class="form-control">
+            </div>
+        </form>
     </div>
     <button type="button" class="btn btn-warning btn-block">Submit</button>
-    </form>
     <p>
         Already have an account?
         <a href="#">Login Here</a>
