@@ -2,3 +2,20 @@
   backgrond-color: darkred;
   color: white;
 }
+body {
+  font-family: "Raleway", sans-serif;
+  background: #316cdb;
+  color: rgb(238, 189, 29);
+  line-height: 1.8;
+}
+form {
+  background-color: rgb(235, 184, 20);
+  padding: 20px;
+  color: white;
+}
+.a {
+  background-color: bisque;
+}
+
+button:hover {
+  background-color: rgb(223, 84, 84);
